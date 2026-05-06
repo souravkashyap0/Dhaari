@@ -1,22 +1,38 @@
 # Dhaari 🚀
 
-Dhaari is a lightweight frontend runtime that implements client-side routing and rendering using native browser APIs.
+Dhaari is a lightweight frontend runtime built using native browser APIs to understand how modern frontend frameworks work internally.
 
-## ✨ Features
-- Custom SPA router using History API
-- No framework dependencies
-- Fast and minimal rendering
-- Clean modular architecture
+## ✨ Current Features
 
-## 🧠 Why Dhaari?
-Modern frameworks abstract away core concepts like routing and rendering. Dhaari is built to understand and demonstrate how these systems work internally.
+- SPA routing using History API
+- Dynamic page rendering
+- Browser back/forward navigation support
+- Event delegation based navigation
 
-## 🛠️ Tech
+## 🧠 Learning Goals
+
+This project is focused on exploring:
+
+- Client-side routing
+- Rendering systems
+- State management
+- Browser APIs
+- Web Components
+- Performance optimization
+
+## 🛠️ Tech Stack
+
 - Vanilla JavaScript
 - Vite
+- Native Browser APIs
 
-## 🚧 Status
-Work in progress – building core routing engine
+## 📂 Current Architecture
 
-## 🎯 Goal
-To explore how frontend frameworks work under the hood by building a minimal runtime from scratch.
+```txt
+Browser
+  ↓
+Router
+  ↓
+Renderer
+  ↓
+DOM
